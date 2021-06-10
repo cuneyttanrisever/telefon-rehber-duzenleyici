@@ -5,7 +5,7 @@ print("""
 # Coded : Cüneyt TANRISEVER #
 #############################
 """)
-oku=open("a.vcf","r").read()
+oku=open("rehber.vcf","r").read()
 bol=oku.split("BEGIN:VCARD")
 #print (bol[2])
 liste=[]
